@@ -28,6 +28,8 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 
 input1 = input("Please enter a string of text (the bigger the better): ")
 
+print("You entered \"" + input1 + "\". Now jumble it:")
+
 length = len(input1)
 output = ""
 for i in range(length-1, -1, -1):
